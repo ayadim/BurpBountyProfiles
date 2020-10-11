@@ -11,7 +11,7 @@ In this situation, you cannot carry out a classic XXE attack, because you don't 
 To perform an XInclude attack, you need to reference the XInclude namespace and provide the path to the file that you wish to include. For example:
 
 <foo xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include parse="text" href="file:///etc/passwd"/></foo> 
-
+https://portswigger.net/web-security/xxe 
 
 
 # Possible XML Request_XXE.bb
