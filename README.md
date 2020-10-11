@@ -13,6 +13,9 @@ To perform an XInclude attack, you need to reference the XInclude namespace and 
 <foo xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include parse="text" href="file:///etc/passwd"/></foo> 
 https://portswigger.net/web-security/xxe 
 
+# BlindXXE_Xinclude_SSRF.bb
+XInclude attacks 
+the main question is can we commit a SSRF attack  using Xinclude? the profile use Burp collaborator to submit a test to the target and see if the target send back an http request to validate the existance of SSRF.
 
 # Possible XML Request_XXE.bb
 finding a way to make a request that can parse an XML syntax is very important and open up an opportunity to exploit XXE vulnerablity.
