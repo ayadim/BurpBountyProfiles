@@ -15,4 +15,4 @@ https://portswigger.net/web-security/xxe
 
 
 # Possible XML Request_XXE.bb
-finding a way to make a request that can parse an XML syntax is very important and open up anopportunity to exploit XXE vulnerablity.
+finding a way to make a request that can parse an XML syntax is very important and open up an opportunity to exploit XXE vulnerablity.
