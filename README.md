@@ -25,3 +25,11 @@ finding a way to make a request that can parse an XML syntax is very important a
 
 # Custom_SSRF.bb
 Some times we need to customize host to perform SSRF that's way i created this profile.. before launching scan you need to change {custom_host} to Attacker:80 host.
+Example : 
+change {custom_host} to 10.10.10.15:9000
+nc -vlp 9000
+you will get request from target machine to your netcat listenner.
+10.10.202.64 - - [27/Oct/2020 12:57:20] code 404, message File not found
+10.10.202.64 - - [27/Oct/2020 12:57:20] "HEAD /SSRF_ATTACK_FROM_BurpSuit HTTP/1.1" 404 -
+
+
