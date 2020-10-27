@@ -23,5 +23,5 @@ finding a way to make a request that can parse an XML syntax is very important a
 # SSTI.bb (Server Side Template Injection)
  it allows a hacker to inject template  code into the website. The effects of this can be devastating, from XSS,  all the way to RCE and also you can read internal files.
 
-#Custom_SSRF.bb
+# Custom_SSRF.bb
 Some times we need to customize host to perform SSRF that's way i created this profile.. before launching scan you need to change {custom_host} to Attacker:80 host.
