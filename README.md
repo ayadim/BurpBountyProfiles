@@ -20,7 +20,7 @@ the main question is can we commit a SSRF attack  using Xinclude? the profile us
 # Possible XML Request_XXE.bb
 finding a way to make a request that can parse an XML syntax is very important and open up an opportunity to exploit XXE vulnerablity.
 
-# SSTI.bb (Server Side Template Injection)
+# Server_Side_Template_Injection.bb (Server Side Template Injection)
  it allows a hacker to inject template  code into the website. The effects of this can be devastating, from XSS,  all the way to RCE and also you can read internal files.
 
 # Custom_SSRF.bb
